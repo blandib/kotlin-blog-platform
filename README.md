@@ -1,42 +1,43 @@
 # Overview
-I am building a blogging program using Kotlin to strengthen my skills as a software engineer. Through this project, I am learning how programming languages share common foundations such as variables, conditionals, loops, and functions, while also exploring Kotlin’s unique features like data classes. My goal is to deepen my understanding of both front‑end interactivity and back‑end data management by connecting the mobile app to a cloud database. This experience helps me practice applying core programming concepts in a real project, preparing me to design and manage more complex applications in the future.
+I am building a blogging program in Kotlin to practice my skills as a software engineer. This project helps me learn the basics like variables, loops, conditionals, and functions, while also using Kotlin features such as data classes and collections. My goal is to get comfortable with both front‑end and back‑end concepts so I can build bigger projects in the future.
+I wrote a Kotlin blogging program that allows users to create, update, delete, and view blog posts. 
 
-I wrote a Kotlin blogging program that allows users to create, update, delete, and view blog posts. The software demonstrates key Kotlin language features:
+# Purpose
+The program is a simple blogging app where users can:
+my Blogging Platform prototype built using Kotlin. My goal here was to create a functional system where a user can create, view, update, and delete blog posts right inside the terminal
 
-Data classes to represent posts.
+Create, update, delete, and view posts
 
-Variables to store titles and content.
+Use data classes to represent posts
 
-Conditionals to validate input.
+Store posts in collections (mutableListOf)
 
-Loops to display posts in a feed.
+Validate input with conditionals
 
-Functions to add, update, delete, and show posts.
+Display posts with loops
 
-Collections (mutableListOf) to store and modify posts.
+Handle menu options with the when keyword
 
-Expressions to calculate word counts dynamically.
+# Software Demo Video
+https://youtu.be/19IdNnPokME
 
-The when keyword to handle interactive menu options.
+# Development Environment
+VS Code – wrote the code in .kt files
+Kotlin Compiler (kotlinc) – compiled and tested the program
+Java Virtual Machine (java) – ran the program
+Terminal (PowerShell) – used to run commands
 
-Although it is not yet a complete platform, the program successfully illustrates the fundamentals of Kotlin through a practical blogging example.
-
-The purpose of writing this software is to create a blogging platform that I can include in my portfolio project. I have been looking for a way to design my own blog, and this project gives me the opportunity to apply Kotlin language basics in a practical context. Although I was previously stuck partway through my project, working on this assignment has helped me deepen my understanding of programming concepts and given me a clear path to continue building and improving my portfolio.
-
-{Provide a link to your YouTube demonstration. It should be a 4–5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-Software Demo Video
-
-Development Environment
-I developed the software using Visual Studio Code (VS Code) with the Kotlin plugin. I wrote my code in .kt files and used the integrated terminal to test compilation and execution. Most of the time, I simply clicked the Run button in VS Code to execute my program, which made it easier to focus on learning the language basics without complex build tools.
-
-The project is written in Kotlin, a modern, statically typed language that runs on the JVM. For this stage of development, I used only the Kotlin standard library (no external libraries yet).
+# Programming Language
+The project is written in Kotlin, a modern language that runs on the JVM. It is widely used for Android apps and is known for its simple syntax and safety features.
 
 Useful Websites
 
 
 - https://kotlinlang.org/docs/home.html
 - https://www.w3schools.com/kotlin/?utm_source=copilot.com
+- https://www.youtube.com/watch?v=ppvhqkjuu9c&t=15s
+- https://www.youtube.com/watch?v=dzUc9vrsldM
+
 
 # Future Work
 
@@ -48,4 +49,3 @@ Build a mobile app interface to interact with the backend.
 
 Improve formatting of posts (titles, timestamps, word counts).
 
-Add user authentication so multiple authors can publish securely.
